@@ -15,11 +15,13 @@
         </style>
 
         <link rel="stylesheet" href="{{ url('css/site.css') }}">
+        <link rel="stylesheet" href="{{ url('css/app.css') }}">
     </head>
     <body class="antialiased">
-        <div class="relative p-4">
-            <nav>
+        <div class="relative p-4 navbar navbar-expand-lg navbar-dark bg-light">
+            <nav class="">
                 <a href="{{ route('home.index') }}">Home</a>
+                <a href="{{ route('guitars.index') }}">Guitars</a>
                 <a href="{{ route('home.about') }}">About</a>
                 <a href="{{ route('home.contact') }}">Contact</a>
             </nav>
