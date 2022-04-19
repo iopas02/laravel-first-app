@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('guitars', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('guitarName');
             $table->string('brand');
             $table->integer('yearMade');
             $table->timestamps();
